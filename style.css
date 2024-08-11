@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./images/stars-bg.png);
+    color: white;
+}
+
+.line{
+    width: 50%;
+    background-color: rgb(184, 182, 182);
+    height: 2px;
+    margin-top: 5rem;
+    margin-left: 400px;
+}
+
+.line-blue{
+    background-color: #0152fc;
+}
+
+.navbarr-nav{
+    display: flex;
+    margin-left: 60px;
+    
+}
+.navbarr-nav li{
+    margin: 50px;
+    font-size: 20px;
+    font-family: l;
+}
+
+.navbarr-nav a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.4s;
+}
+.navbarr-nav a:hover{
+    color: red;
+    scale: 1.1;
+}
+.greatpower{
+    display: flex;
+    z-index: -1;
+}
+
+.greatpower h1{
+    font-family: z;
+    font-size: 60px;
+    
+}
+.greatpower span{
+    color: red;
+    
+}
+.greatpower img{
+    width: 600px;
+    margin-left: 150px;
+    margin-top: -320px;
+    
+}
+
+.link{
+    font-family: l;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: -400px;
+}
+.link2{
+    font-family: l;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: -300px;
+}
+.link:hover{
+    color: white;
+}
+.link2:hover{
+    color: white;
+}
+
+
+.buttons span ,i{
+    position: relative;
+    padding-top: -500px;
+}
+.buttons2 span ,i{
+    position: relative;
+    padding-top: -500px;
+}
+
+.buttons i{
+    margin-left: 0.5em;
+}
+.buttons2 i{
+    margin-left: 0.5em;
+}
+.red{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -0.65em;
+}
+.red2{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -0.65em;
+}
+.characters{
+    position: relative;
+    margin-top: -90px;
+}
+.characters h1{
+    color: red;
+    font-size: 160px;
+    font-family: z;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.greengoblin img{
+    width: 500px;
+    
+}
+
+.greengoblin{
+    display: flex;
+    margin-top: 100px;
+}
+
+.greengoblin h2{
+    color: rgb(0, 0, 0);
+    font-family: l;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 300px;
+    text-shadow:2px 2px 36px rgb(0, 255, 34) ;
+}
+.greengoblin h2 span{
+    margin-left: 80px;
+}
+
+.goblinpara{
+    font-family: z;
+    font-weight: bolder;
+    color: green;
+    font-size: 30px;
+    position: absolute;
+    top: 65.5%;
+    left: 43%;
+    width: 800px;
+    text-align: justify;
+}
+.characters2{
+    position: relative;
+    margin-top: -110px;
+}
+.characters2 h1{
+    color: red;
+    font-size: 50px;
+    font-family: z;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.venom img{
+    width: 600px;
+    margin-left: 100px;
+    
+}
+
+.venom{
+    display: flex;
+    margin-top: 400px;
+    
+}
+
+.venom h2{
+    color: BLACK;
+    font-family: l;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 200px;
+    text-shadow:4px 4px 35px silver ;
+    
+}
+.venom h2 span{
+    margin-left: -60px;
+}
+
+.venompara{
+    font-family: z;
+    font-weight: bolder;
+    color: silver;
+    text-shadow: 4px 4px 26px silver;
+    font-size: 35px;
+    position: absolute;
+    top: 35.5%;
+    left: 39%;
+    width: 800px;
+    text-align: justify;
+}
+.octopus{
+    display: flex;
+    margin-top: 200px;
+}
+
+.octopus img{
+    margin-left: 100px;
+}
+.octopus h2{
+    color: black;
+    font-family: bolder;
+    font-family: l;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-shadow:2px 2px 36px rgb(241, 102, 2) ;
+    text-align: center;
+}
+
+.octopara p{
+    width: 650px;
+    margin-left: 50px;
+    margin-top: -250px;
+    font-family: z;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: justify;
+    color: rgb(126, 68, 26);
+}
+.mysterio{
+    display: flex;
+    margin-top: 200px;
+}
+
+.mysterio img{
+    border-radius: 50px;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: -400px;
+}
+.mysterio h2{
+    color: #350F22;
+    font-family: bolder;
+    font-family: l;
+    font-size: 60px;
+    margin-top: -150px;
+    margin-left: 100px;
+    text-shadow:6px 6px 46px #8aa81e;
+    text-align: center;
+}
+
+.mystpara p{
+    width: 650px;
+    margin-left: 50px;
+    margin-top: -410px;
+    font-family: z;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: justify;
+    color: rgb(122, 170, 68);
+}
+
+.floating{
+    animation: float 4s ease-in-out infinite;
+}
+@font-face {
+    font-family:l ;
+    src: url(font/LP\ Horizont\ Caps.otf);
+}
+@font-face {
+    font-family:z ;
+    src: url(font/Zolina-Bold.ttf);
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-35px);
+
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.allmovies h1{
+    color: red;
+    font-size: 150px;
+    font-family: l;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 400px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 12rem;
+}
+
+.card{
+    width: 28%;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .8s ease;
+}
+
+.img-card{
+    max-width: 350px;
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card-1{
+    background: linear-gradient(to right,
+    #545d60 , #283048
+    );
+}
+.card-2{
+    background: linear-gradient(to right,
+    #4b485a , #1f1c2c
+    );
+}
+.card-3{
+    background: linear-gradient(to right,
+    #3f4c6b , #535e79
+    );
+}
+
+.card:hover{
+    background: linear-gradient(to right,
+    #f10c0c, #8d4021
+    );
+}
+
+
+.color{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.card span{
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+}
+
+.card:hover .color{
+    color: #fff;
+}
+
